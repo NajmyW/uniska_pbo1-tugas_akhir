@@ -36,7 +36,7 @@ public class Main {
         kost.setTersedia(true);
         kost.getInformasi();
 
-        //jika ga setia
+        //jika ga sedia kamarnya
         System.out.println("\n");
         kost.setNama("Najmy");
         kost.setAlamat("Jl. Banjarmasin");
@@ -46,7 +46,7 @@ public class Main {
         kost.getInformasi();
 
         System.out.println("\n");
-        //didalam paramter
+        //input didalam paramater constructor
         Kost kost2 = new Kost("Ridho","Jl. Martapura","0898465984",34300);
         kost2.getInformasi();
     }
